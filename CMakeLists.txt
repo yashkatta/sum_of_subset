@@ -7,8 +7,7 @@ project (sum_of_subset)
 set(CMAKE_CXX_STANDARD 17)
 
 # Include Directories ----------------------------------------
-include_directories("${PROJECT_SOURCE_DIR}/deps/utility_provider/include/"
-"${PROJECT_SOURCE_DIR}/deps/opengl/include/")
+include_directories("${PROJECT_SOURCE_DIR}/deps/utility_provider/include/")
 
 # Add Subdirectory ----------------------------------------
 add_subdirectory(src)
